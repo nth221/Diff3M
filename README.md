@@ -5,7 +5,7 @@ This repository contains our implementation of **"Harnessing EHRs for Diffusion-
 ## Paper Overview
 
 ## Experimental Setup
-The Diffusion code used in Diff3M references the implementation provided by [lucidrains's repository](https://github.com/lucidrains/vit-pytorch). 
+The Diffusion code used in Diff3M references the implementation provided by [Wolleb's repository](https://gitlab.com/cian.unibas.ch/diffusion-anomaly). 
 
 ### Dataset and Hyperparameter Configuration
 
