@@ -18,4 +18,6 @@ preprocessed mimic csv file
 
 ### Citation
 
+Kim, H., Wang, Y., Ahn, M., Choi, H., Zhou, Y., Hong, C. (2026). Harnessing EHRs for Diffusion-Based Anomaly Detection on Chest X-Rays. In: Gee, J.C., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2025. MICCAI 2025. Lecture Notes in Computer Science, vol 15962. Springer, Cham. https://doi.org/10.1007/978-3-032-04947-6_23
+
 ### References
