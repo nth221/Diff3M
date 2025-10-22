@@ -11,6 +11,16 @@ Unsupervised anomaly detection (UAD) in medical imaging is crucial for identifyi
 The Diffusion code used in Diff3M references the implementation provided by [Wolleb's repository](https://gitlab.com/cian.unibas.ch/diffusion-anomaly). 
 
 
+## Data Preprocessing
+
+We define normal samples as cases with *No Finding*, while all other cases are considered anomalies. For demographic features, we use sex, age, and AP/PA view. In MIMIC-CXR, we further incorporate BMI, blood pressure, height, and weight from MIMIC-IV as additional EHR features, selecting records within three months of the X-ray imaging date.
+
+Due to policy restrictions, we cannot share the preprocessed MIMIC dataset. Instead, we are sharing the preprocessing code used in this study.
+We performed preprocessing by sequentially running five codes located in the `all_preprocessing`:
+
+`preprocess_MIMIC > connect_mimic_plus > join_label_ehr > file_check_and_update_MIMIC > analysis_mimic`
+
+
 
 ### Citation
 
